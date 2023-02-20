@@ -1,4 +1,5 @@
 import { Client } from '@notionhq/client'
+import { DData } from '../types'
 
 const AUTH = process.env.NOTION_ACCESS_TOKEN
 const DATABASE_ID = process.env.NOTION_DATABASE_ID ?? ''

@@ -1,5 +1,5 @@
 // Database Date
-interface DData {
+export interface DData {
 	id: string
 	title: string
 	desc: string
